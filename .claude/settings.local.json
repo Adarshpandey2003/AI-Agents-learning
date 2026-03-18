@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''smolagents_framework.ipynb'', encoding=''utf-8''\\)\\); [print\\(i, repr\\(''''.join\\(c[''source'']\\)[:120]\\)\\) for i,c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(python -c \"from smolagents.models import ChatMessage; help\\(ChatMessage.__init__\\)\")"
+    ]
+  }
+}
